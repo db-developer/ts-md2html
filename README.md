@@ -4,7 +4,7 @@
 ![Build & Test](https://github.com/db-developer/ts-md2html/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/db-developer/ts-md2html/branch/master/graph/badge.svg)](https://codecov.io/gh/db-developer/ts-md2html)
 
-[BOTTOM](#api-reference) [CHANGELOG](CHANGELOG.md) [LICENSE](LICENSE)
+[BOTTOM](#api-reference) [CHANGELOG](CHANGELOG.md) [CONTRIBUTING](CONTRIBUTING.md) [LICENSE](LICENSE)
 
 # ts-md2html
 
@@ -97,4 +97,4 @@ This allows you to embed the Markdown content into your code at build-time and u
 - Throws an error if invalid UTF-8 sequences are detected.
 - Returns a `Promise<string>` containing the UTF-8 content.
 
-[TOP](#ts-md2html) [CHANGELOG](CHANGELOG.md) [LICENSE](LICENSE)
+[TOP](#ts-md2html) [CHANGELOG](CHANGELOG.md) [CONTRIBUTING](CONTRIBUTING.md) [LICENSE](LICENSE)
