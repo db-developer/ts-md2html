@@ -78,6 +78,8 @@ const readmeHtml = await md2html("./README.md");
 
 This allows you to embed the Markdown content into your code at build-time and use it anywhere in your application.
 
+---
+
 ## API Reference
 
 `md2html(file: string, options?: { encoding?: ExplicitEncoding }): Promise<string>`
