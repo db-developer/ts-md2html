@@ -1,6 +1,6 @@
 {
   "name": "ts-md2html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert markdown to HTML",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",

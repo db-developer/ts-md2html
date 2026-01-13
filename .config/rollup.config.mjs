@@ -31,7 +31,11 @@ export default [
         declarationMap: false,
         outDir: undefined      // remove conflicting output dir/file
       }),
-      nodeResolve({browser: true}),
+      nodeResolve({
+        browser: false,             // <- Node-only, no browser. Ever.
+        exportConditions: ["node"], // <- force node exports
+        preferBuiltins: true        // <- fs, path, etc. 
+      }),
       commonjs(),
       // Remove all remaining comments
       isProd && terser({

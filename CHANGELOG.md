@@ -18,6 +18,11 @@ All notable changes to this project will be documented in this file.
 
 - No fixes yet
 
+## [1.1.0] - 2026-01-13
+
+- Fixed bundling for Node environments: Rollup now correctly resolves Node-only exports, 
+  preventing runtime errors caused by browser-specific code (e.g., `document` undefined).
+
 ## [1.0.0] - 2026-01-12
 
 - Initial version
